@@ -1,0 +1,54 @@
+   
+ <div class="row">
+   
+     <div class="col-md-3" style='height:500px; background-color:coral; margin-left:"10px"'> 
+        
+       <label>First Name:</label><input type="text" name="fname" style="height:20px" (keyup)="fname=abc.value" #abc>
+    
+     <label>Last Name:</label><input type="text" name="lname" style="height:20px">
+          
+<div class="row">
+     <label for = "selectGender"> Gender </label>
+     <select id = "selectGender">
+       <option>Male</option>
+       <option>Female</option>      
+     </select>
+</div>
+      <div class="checkbox">
+<label>Known Languages:</label>
+     
+      <label><input type="Checkbox">English
+       </label>
+
+       <label><input type="Checkbox">Hindi
+      </label>
+    
+      <label><input type="Checkbox">Marathi
+       </label>
+     
+    <br>    
+  <label>Image:</label>
+      <img src="https://s.yimg.com/fz/api/res/1.2/_Xb7YsLroc1RFYINhGhibw--/YXBwaWQ9c3JjaGRkO2g9MTkyMDtxPTk1O3c9MjU2MA--/http://eskipaper.com/images/3d-nature-11.jpg" height="100px" width="80px">
+           
+     
+      </div>
+     <button type=" button" class=" btn btn-primary"> Submit  </button>
+
+     	<p>
+         <a href="https://www.w3schools.com/html/">Register</a>
+				</p>
+
+     <br>
+    
+          </div>
+    
+        <div class="col-md-3" style='height:500px; background-color:blueviolet'> 
+         <h1>{{fname}}</h1>
+  
+  <h2>{{lname}}</h2>
+
+  <h3>{{Gender}}</h3>
+</div>
+        
+     </div>
+     
