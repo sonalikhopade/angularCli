@@ -1,15 +1,15 @@
    
  <div class="row">
    
-     <div class="col-md-3" style='height:500px; background-color:coral; margin-left:"10px"'> 
+     <div class="col-md-3" style='height:300px; background-color:coral; margin-left:"10px"'> 
         
        <label>First Name:</label><input type="text" name="fname" style="height:20px" (keyup)="fname=abc.value" #abc>
     
-     <label>Last Name:</label><input type="text" name="lname" style="height:20px">
+     <label>Last Name:</label><input type="text" name="lname" style="height:20px"(keyup)="lname=ab.value" #ab>
           
 <div class="row">
      <label for = "selectGender"> Gender </label>
-     <select id = "selectGender">
+     <select id = "selectGender"(keyup)="Gender=a.value" #a>
        <option>Male</option>
        <option>Female</option>      
      </select>
@@ -42,12 +42,12 @@
     
           </div>
     
-        <div class="col-md-3" style='height:500px; background-color:blueviolet'> 
+        <div class="col-md-2" style='height:200px; background-color:blueviolet'> 
          <h1>{{fname}}</h1>
   
   <h2>{{lname}}</h2>
 
-  <h3>{{Gender}}</h3>
+  
 </div>
         
      </div>
